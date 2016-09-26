@@ -1,0 +1,45 @@
+body {
+	background-color: #8600ff;
+	
+}
+#banner{
+	
+	background: linear-gradient(to bottom right, blue, purple);
+}
+
+h1{
+	
+	color: #66194d;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 5px 5px 5px black;
+	
+}
+h2{
+	color: #ff3396; 
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+}
+
+#kitty{
+	border: 10px inset #ff3396;
+    border-radius: 15px 50px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px #000000;
+    
+	
+}
+div{
+	text-align: center;
+}
+p{
+	color:   #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+}
+#slides{
+	border: 10px outset #ff3396;
+    padding: 10px;
+    box-shadow: 10px 10px 20px #000000;
+    
+}

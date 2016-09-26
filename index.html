@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Intro Website</title>
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/my-code.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+
+	</head>
+	<body>
+
+		<div id="banner">
+			<h1>HELLO!!</h1>
+			<p>
+				I LOVE FOOD!!!!!
+			</p>
+			<h2>Created by Dani</h2>
+			<hr>
+		</div>
+
+		<ul class="w3-navbar w3-card-2 w3-light-grey">
+			<li>
+				<a href="http://192.168.1.156/a4mcclendon">Mr. M's website</a>
+			</li>
+			<li class="w3-dropdown-hover w3-hover-w3-blue">
+				<a class="w3-hover-purple" href="#">My Pages<i class="fa_fa-carset-down"></i></a>
+				<div class="w3-dropdown-content w3-white w3-card-4">
+					<a href="http://www.google.com">Google</a>
+					<a href="http://www.westada.org">School Website</a>
+					<a href="http://192.168.1.153/a4coppola_01">Home</a>
+					<a href="#">Carter H</a>
+				</div>
+			</li>
+			<li class="w3-dropdown-hover w3-hover-w3-blue">
+				<a class="w3-hover-purple" href="#">CHS<i class="fa_fa-carset-down"></i></a>
+				<div class="w3-dropdown-content w3-white w3-card-4">
+					<a href="http://192.168.1.169/a4_ambrose">Roscoe A</a>
+					<a href="#">Dani C</a>
+					<a href="#">Tyler H</a>
+					<a href="#">Luke C</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+					<a href="#">link 3</a>
+				</div>
+			</li>
+
+			<li class="w3-dropdown-hover w3-hover-w3-blue">
+				<a class="w3-hover-purple" href="#">MHS<i class="fa_fa-carset-down"></i></a>
+				<div class="w3-dropdown-content w3-white w3-card-4">
+					<a href="#">Andrea D</a>
+					<a href="#">Parker Y</a>
+					<a href="#">Zeke C</a>
+					<a href="#">Kenison S</a>
+				</div>
+			</li>
+			<li class="w3-dropdown-hover w3-hover-w3-blue">
+				<a class="w3-hover-purple" href="#">MVHS<i class="fa_fa-carset-down"></i></a>
+				<div class="w3-dropdown-content w3-white w3-card-4">
+					<a href="#">Carter H</a>
+				</div>
+			</li>
+			<li class="w3-dropdown-hover w3-hover-w3-blue">
+				<a class="w3-hover-purple" href="#">RMHS<i class="fa_fa-carset-down"></i></a>
+				<div class="w3-dropdown-content w3-white w3-card-4">
+					<a href="http://192.168.1.1">Adrian C</a>
+					<a href="http://">Hunter F</a>
+					<a href="http://">James G</a>
+					<a href="http://">Alejandro E</a>
+				</div>
+			</li>
+		</ul>
+		<br>
+
+		<div>
+			<h1>Click to see CATS!!!</h1>
+			<img id="kitty" src="images/kitty600.jpg" alt="kitty600">
+		</div>
+
+		<hr>
+
+		<div id="slides"class="w3-content" style="max-width:600px;position:relative">
+
+			<div class="w3-display-container mySlides">
+				<img src="images/cat1-600.jpg" style="width:100%">
+				<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+					Cat
+				</div>
+			</div>
+
+			<div class="w3-display-container mySlides">
+				<img src="images/cat2-600.jpeg" style="width:100%">
+				<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+					Cat in Jeans
+				</div>
+			</div>
+
+			<div class="w3-display-container mySlides">
+				<img src="images/cat3-600.jpg" style="width:100%">
+				<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+					Cat with Beanie
+				</div>
+			</div>
+			<div class="w3-display-container mySlides">
+				<img src="images/cat4-600.jpg" style="width:100%">
+				<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+					Cats in Cup
+				</div>
+			</div>
+			<div class="w3-display-container mySlides">
+				<img src="images/cat5-600.jpg" style="width:100%">
+				<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+					B/W Cat
+				</div>
+			</div>
+
+			<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">↶</a>
+			<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">↷</a>
+
+		</div>
+
+		<script src="js/slideshow.js"></script>
+			
+		
+		<!--practive jq02 -- buttons-->
+		<br>
+		<hr>
+		<br>
+		<input id="testbutton" type="button" value="CLICK">
+		<div id="jq02">
+			<h3>This is the <strong>first</strong> line of text for practice.</h3>
+			<h3>This is the <strong>second</strong> line of text for practice.</h3>
+
+		</div>
+		<h3>This is the <strong>third</strong> line of text for practice.</h3>
+		<h3>This is the <strong>fourth</strong> line of text for practice.</h3>
+
+		<br>
+		<hr>
+		<br>
+
+	</body>
+
+</html>
